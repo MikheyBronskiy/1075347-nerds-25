@@ -1,77 +1,95 @@
 <!DOCTYPE html>
 <html lang="ru">
-<head>
-  <meta charset="utf-8">
-  <title>Дизайн-студия "Нёрдс"</title>
-  <link href="https://fonts.googleapis.com/css?family=Roboto:400,500,700&amp;subset=cyrillic" rel="stylesheet">
-  <link href="css/normalize.css" rel="stylesheet">
-  <link href="css/min-style.css" rel="stylesheet">
-</head>
-<body>
-<header class="main-header">
-  <nav class="main-navigation container">
-       <a class="main-header-logo" href="">
-         <img src="img/nerds-logo.svg" width="160" height="65" alt="Логотип дизайн-студии Nerds">
-       </a>
-       <ul class="site-navigation">
-          <li class="current-index"><a href="index.html">студия</a></li>
-          <li><a href="#">клиенты</a></li>
-          <li><a href="catalog.html">магазин</a></li>
-          <li><a href="#">контакты</a></li>
-       </ul>
-       <div class="user-navigation">
-        <a class="user-cart" href="#">
-        корзина</a>
-       </div>
-  </nav>
-</header>
-<main>
-  <h1 class="visually-hidden">Дизайн-студия Nerds</h1>
-  <section class="specialization container">
-    <h2 class="visually-hidden">Специализация</h2>
-    <ul class="specialization-list">
-      <li class="specialization-item">
-	  <img src="img/picture-1.png" width="300" height="146" alt="Веб-сайты">
-        <h3>ВЕБ-САЙТЫ</h3>
-        <p>
-          Мир никогда не будет прежним после того как увидит ваш сайт!
-        </p>
-        <a href="#" class="button to-order-site">ЗАКАЗАТЬ</a>
-      </li>
-      <li class="specialization-item">
-        <img src="img/picture-2.png" width="300" height="146" alt="Приложения">
-        <h3>ПРИЛОЖЕНИЯ</h3>
-        <P>
-          Покорите топ-10 приложений в AppStore и Google Play
-        </P>
-        <a href="#" class="button to-order-app">ЗАКАЗАТЬ</a>
-      </li>
-      <li class="specialization-item">
-        <img src="img/picture-3.png" width="300" height="146" alt="Презентации">
-        <h3>ПРЕЗЕНТАЦИИ</h3>
-        <P>
-          Вы даже не подозреваете, насколько мы изумительны!
-        </P>
-        <a href="#" class="button to-order-presentation">ЗАКАЗАТЬ</a>
-      </li>
-    </ul>
-  </section>
-</main>
-<footer class="main-footer"> 
- <div class="container">
-  <div class="footer-social">
-    <ul>
-      <li><span class="visually-hidden">Вконтакте</span>
-    </a></li>
-    <li><span class="visually-hidden">Фейсбук</span>
-    <li><span class="visually-hidden">Инстаграм</span>
-  </ul>
-</div>
-<p class="footer-offer">
-  <b>Давайте дружить, это выгодно!</b>
-  Скидка 10% для друзей из социальных сетей.
-</p>
-</div> 
-</footer>
-</body>
+	<head>
+		<meta charset="utf-8">
+		<title>Дизайн-студия "Нёрдс"</title>
+	</head>
+	<body>
+		<header class="main-header">
+			<div class="container">
+				<nav class="main-navigation container">
+					<div class="logo">
+						<img src="img/nerds-logo.svg" width="160" height="65" alt=" Логотип студии NERD`S">
+					</div>
+					<div class="navigation-wrapper">
+						<ul class="site-navigation">
+						  <li><a href="studio.html">Студия</a></li>
+						  <li><a href="clients.html">Клиенты</a></li>
+						  <li><a href="catalog.html">Магазин</a></li>
+						  <li><a href="contacts.html">Контакты</a></li>
+						</ul>
+                        <ul class="user-navigation">
+						  <li><a class="basket" href="#">Корзина</a></li>
+						</ul>
+					</div>
+				</nav>
+			</div>
+		</header>
+		<main class="main-content">
+			<h1 class="visually-hidden">Дизайн-студия Nerds</h1>
+			<div class="work-container">
+				<section class="propositions">
+					<h2 class="visually-hidden">Комерческие предложения</h2>
+					<ul class="propositions-list">
+					<li class="propositions-list-item">
+						<img src="img/propositions-monitor.jpg" width="300" height="146" alt="Монитор">
+						<h3>Веб-сайты</h3>
+						<p>Мир никогда не будет прежним после того как увидит ваш сайт!</p>
+						<a class="button" href="catalog.html" >Заказать</a>
+					</li>
+					<li class="propositions-list-item">
+						<img src="img/propositions-mobile-phone.jpg" width="300" height="146" alt="Мобильный телефон">
+						<h3>Приложения</h3>
+						<p>Покорите топ-10 приложений в AppStore и Google Play</p>
+						<a class="button button-green" href="catalog.html">Заказать</a>
+					</li>
+					<li class="propositions-list-item">
+						<img src="img/propositions-board.jpg" width="300" height="146" alt="Доска для презентации">
+						<h3>Презентации</h3>
+						<p>Вы даже не подозреваете, насколько вы изумительны!</p>
+						<a class="button button-yellow" href="catalog.html">Заказать</a>
+					</li>
+					</ul>
+				</section>
+			</div>
+		</main>
+	<footer class="main-footer">
+      <div class="container">
+        <div class="social">
+          <ul class="social-buttons">
+            <li class="social-buttons-item social-vk"><a href="#">Вконтакте</a></li>
+            <li class="social-buttons-item social-fb"><a href="#">Фейсбук</a></li>
+            <li class="social-buttons-item social-insta"><a href="#">Инстаграм</a></li>
+          </ul>
+          <div class="social-invitation">
+            <b class="social-invitation-text">Давайте дружить, это выгодно!</b>
+            <p class="social-invitation-discount">Скидка 10% для друзей из социальных сетей</p>
+          </div>
+        </div>
+      </div>
+      <section class="write-to-us popap">
+        <h2>Напишите нам</h2>
+        <form class="write-to-us-form" method="POST" action="https://echo.htmlacademy.ru">
+          <div class="form-fields-set">
+            <div class="form-pair-wrapper">
+              <p class="form-field-wrapper">
+                <label for="field-name">Ваше имя:</label>
+                <input class="form-field" type="text" id="field-name" name="name" placeholder="Имя Фамилия">
+              </p>
+              <p class="form-field-wrapper">
+                <label for="field-email">Ваш e-mail:</label>
+                <input class="form-field" type="email" id="field-email" name="email" placeholder="email@example.com">
+              </p>
+            </div>
+            <p class="form-field-wrapper form-single-wrapper">
+              <label for="field-message">Текст письма:</label>
+              <textarea class="form-field" id="field-message" name="message" placeholder="В свободной форме"></textarea>
+            </p>
+          </div>
+          <button class="button" type="submit">Отправить</button>
+        </form>
+        <a class="close-form-button" href="index.html">Закрыть</a>
+      </section>
+    </footer>
+  </body>
 </html>
