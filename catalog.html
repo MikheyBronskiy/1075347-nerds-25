@@ -2,9 +2,12 @@
 <html lang="ru">
   <head>
     <meta charset="utf-8">
-    <title>Дизаин-студия "Нёрдс"</title>
+    <title>HTML Academy: Нёрдс</title>
+    <link href="https://fonts.googleapis.com/css?family=Roboto:400,500,700&amp;subset=cyrillic" rel="stylesheet">
+    <link href="css/normalize.css" rel="stylesheet">
+    <link href="css/style.css" rel="stylesheet">
   </head>
-  <body>
+  <body class="inner-page">
     <header class="main-header">
       <div class="container">
         <nav class="main-navigation">
@@ -149,7 +152,7 @@
         </div>
       </div>
     </main>
-	<footer class="main-footer">
+    <footer class="main-footer">
       <div class="container">
         <div class="social">
           <ul class="social-buttons">
@@ -161,31 +164,8 @@
             <b class="social-invitation-text">Давайте дружить, это выгодно!</b>
             <p class="social-invitation-discount">Скидка 10% для друзей из социальных сетей</p>
           </div>
-
         </div>
       </div>
-      <section class="write-to-us popap">
-        <h2>Напишите нам</h2>
-        <form class="write-to-us-form" method="POST" action="https://echo.htmlacademy.ru">
-          <div class="form-fields-set">
-            <div class="form-pair-wrapper">
-              <p class="form-field-wrapper">
-                <label for="field-name">Ваше имя:</label>
-                <input class="form-field" type="text" id="field-name" name="name" placeholder="Имя Фамилия">
-              </p>
-              <p class="form-field-wrapper">
-                <label for="field-email">Ваш e-mail:</label>
-                <input class="form-field" type="email" id="field-email" name="email" placeholder="email@example.com">
-              </p>
-            </div>
-            <p class="form-field-wrapper form-single-wrapper">
-              <label for="field-message">Текст письма:</label>
-              <textarea class="form-field" id="field-message" name="message" placeholder="В свободной форме"></textarea>
-            </p>
-          </div>
-          <button class="button" type="submit">Отправить</button>
-        </form>
-      </section>
     </footer>
   </body>
 </html>
