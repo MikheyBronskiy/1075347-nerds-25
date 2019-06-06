@@ -153,6 +153,22 @@
       </div>
     </main>
     <footer class="main-footer">
+      <div class="footer-contacts">
+        <div class="map-container" id="map"></div>
+        <div class="container">
+          <div class="address-box">
+            <b class="footer-studio-name">NЁRDS DESIGN STUDIO</b>
+            <p class="footer-studio-address">
+              191186, Санкт-Петербург,<br>
+              ул. Б. Конюшенная, д. 19/8
+            </p>
+            <p class="footer-studio-phone">
+              тел. +7 (812) 275-75-75
+            </p>
+            <a class="button" id="write-to-us-button" href="writetous.html">Напишите нам</a>
+          </div>
+        </div>
+      </div>
       <div class="container">
         <div class="social">
           <ul class="social-buttons">
@@ -166,6 +182,29 @@
           </div>
         </div>
       </div>
+      <section class="write-to-us popap">
+        <h2>Напишите нам</h2>
+        <form class="write-to-us-form" method="POST" action="https://echo.htmlacademy.ru">
+          <div class="form-fields-set">
+            <div class="form-pair-wrapper">
+              <p class="form-field-wrapper">
+                <label for="field-name">Ваше имя:</label>
+                <input class="form-field" type="text" id="field-name" name="name" placeholder="Имя Фамилия">
+              </p>
+              <p class="form-field-wrapper">
+                <label for="field-email">Ваш e-mail:</label>
+                <input class="form-field" type="email" id="field-email" name="email" placeholder="email@example.com">
+              </p>
+            </div>
+            <p class="form-field-wrapper form-single-wrapper">
+              <label for="field-message">Текст письма:</label>
+              <textarea class="form-field" id="field-message" name="message" placeholder="В свободной форме"></textarea>
+            </p>
+          </div>
+          <button class="button" type="submit">Отправить</button>
+        </form>
+        <a class="close-form-button" href="catalog.html">Закрыть</a>
+      </section>
     </footer>
   </body>
 </html>
