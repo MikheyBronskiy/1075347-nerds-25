@@ -36,8 +36,22 @@
       </div>
       <div class="catalog-wrapper container">
         <section class="filters">
-          <h2 class="visually-hidden">Фильтры готовых шаблонов</h2>
+          <h2 class="visually-hidden">Фильтр готовых шаблонов</h2>
           <form class="filter-form" method="GET" action="https://echo.htmlacademy.ru">
+            <fieldset class="filter-price">
+              <legend>Стоимость:</legend>
+              <div class="range-controls">
+                <div class="scale">
+                  <div class="bar"></div>
+                </div>
+                <div class="toggle toggle-min"></div>
+                <div class="toggle toggle-max"></div>
+              </div>
+              <div class="price-controls">
+                <label class="filter-min-price">От<input type="text" name="min-price" value="0"></label>
+                <label class="filter-max-price">До<input type="text" name="max-price" value="1500"></label>
+              </div>
+            </fieldset>
             <fieldset class="filter-grid">
               <legend>Сетка:</legend>
               <ul class="filter-grid-list">
@@ -84,6 +98,16 @@
           </form>
         </section>
         <div class="sorting-templates-container">
+          <section class="sorting">
+            <h2>Сортировать:</h2>
+            <ul class="sorting-list">
+              <li class="sorting-item active-sorting-item"><a>По цене</a></li>
+              <li class="sorting-item"><a href="#">По типу</a></li>
+              <li class="sorting-item"><a href="#">По названию</a></li>
+              <li class="sorting-item increase-button active-sorting-item"><a>по возрастанию</a></li>
+              <li class="sorting-item decrease-button"><a href="#">по убыванию</a></li>
+            </ul>
+          </section>
           <section class="templates">
             <h2 class="visually-hidden">Готовые шаблоны</h2>
             <ul class="templates-list">
@@ -148,6 +172,14 @@
               </div>
             </li>
             </ul>
+            <div class="pagination">
+              <ul class="pagination-list">
+                <li class="pagination-item pagination-current"><a>1</a></li>
+                <li class="pagination-item"><a href="#">2</a></li>
+                <li class="pagination-item"><a href="#">3</a></li>
+                <li class="pagination-item pagination-next"><a href="#">Следующая</a></li>
+              </ul>
+            </div>
           </section>
         </div>
       </div>
@@ -180,6 +212,7 @@
             <b class="social-invitation-text">Давайте дружить, это выгодно!</b>
             <p class="social-invitation-discount">Скидка 10% для друзей из социальных сетей</p>
           </div>
+
         </div>
       </div>
       <section class="write-to-us popap">
